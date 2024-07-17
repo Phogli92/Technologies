@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+img{
+    width: 100%;
+}
+body {
+  background-color: #070f1e;
+}
+.Navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #070f1e;
+}
+.Navbar .links ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+.Navbar .logo{
+    width: 200px;
+    display: flex;
+
+}
+.Navbar .logo img{
+    width: 20%;
+  cursor: pointer;  
+}
+.Showcase{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.Showcase .text {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Showcase .text h3{
+    color: #3A68B8;
+}
+.Showcase .text .buttons button{
+    margin: 5px;
+    background-color: #3A68B8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: translate3d(2px, 3px, 3px);
+    box-shadow: 0 0 10px 2px grey;
+}
+.Cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF33;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.card .img {
+    width: 30%;
+    margin: 20px 0 20px 0;
+}
+.LineBoss{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 14px;
+}   
+.LineBoss .logo img{
+    width: 15%;
+}
+.LineBoss p, .LineBoss ul li{
+    color: grey;
+}
+.LineBoss .line{
+    width: 200px;
+}
+.LineBoss .line {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.LineBoss .column{
+    width: 100%;
+}
+.LineBoss .column ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+}
